@@ -19,8 +19,8 @@ eureka:
 zuul:
   routes:
     api-a:
-      path: /api/a/**
-      serviceId: micro-service-web-admin-ribbon
+      path: /api/assist-get/**
+      serviceId: cloud-errands-service-assist-get
     api-b:
-      path: /api/b/**
-      serviceId: micro-service-web-admin-feign
+      path: /api/assist-post/**
+      serviceId: cloud-errands-service-assist-post
