@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: cloud-errands-service-assist-get
+  zipkin:
+    base-url: http://localhost:9411
+  boot:
+    admin:
+      client:
+        url: http://localhost:8084
+
+server:
+  port: 8763
+
+eureka:
+  client:
+    service-url:
+      default-zone: http://localhost:8761/eureka/
