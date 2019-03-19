@@ -7,6 +7,17 @@ spring:
     admin:
       client:
         url: http://localhost:8084
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://47.106.38.136:3306/db_cloud_errands_assist_get?characterEncoding=UTF-8&useSSL=false
+    username: root
+    password: 1172477133wq
+    hikari:
+      maximum-pool-size: 20
+      minimum-idle: 5
+  jpa:
+    database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
+    show-sql: true
 
 server:
   port: 8763
