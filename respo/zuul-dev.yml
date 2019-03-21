@@ -19,8 +19,8 @@ eureka:
 zuul:
   routes:
     api-a:
-      path: /api/assist-get/**
+      path: /api/v1/assist-get/**
       serviceId: cloud-errands-service-assist-get
     api-b:
-      path: /api/assist-post/**
+      path: /api/v2/assist-post/**
       serviceId: cloud-errands-service-assist-post
