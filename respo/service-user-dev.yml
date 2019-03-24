@@ -1,6 +1,6 @@
 spring:
   application:
-    name: cloud-errands-service-assist-get
+    name: cloud-errands-service-user
   zipkin:
     base-url: http://localhost:9411
   boot:
@@ -9,7 +9,7 @@ spring:
         url: http://localhost:8084
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://47.106.38.136:3306/db_cloud_errands_assist_get?characterEncoding=UTF-8&useSSL=false
+    url: jdbc:mysql://47.106.38.136:3306/db_cloud_errands_user?characterEncoding=UTF-8&useSSL=false
     username: root
     password: 1172477133wq
     hikari:
@@ -20,15 +20,9 @@ spring:
     show-sql: true
 
 server:
-  port: 8763
+  port: 8773
 
 eureka:
   client:
     service-url:
       default-zone: http://localhost:8761/eureka/
-
-express:
-  weight:
-    level0: 1.00
-    level1: 3.00
-    level2: 8.00
