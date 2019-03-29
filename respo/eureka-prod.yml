@@ -1,0 +1,20 @@
+spring:
+  application:
+    name: cloud-errands-eureka
+  zipkin:
+    base-url: http://152.136.77.190:9411
+  boot:
+    admin:
+      client:
+        url: http://152.136.77.190:8084
+
+server:
+  port: 8761
+eureka:
+  instance:
+    hostname: 152.136.77.190
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+    service-url:
+      default-zone: http://${eureka.instance.hostname}:${server.port}/eureka/

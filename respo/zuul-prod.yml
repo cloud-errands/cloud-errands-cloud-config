@@ -2,19 +2,19 @@ spring:
   application:
     name: cloud-errands-zuul
   zipkin:
-    base-url: http://localhost:9411
+    base-url: http://152.136.77.190:9411
   boot:
     admin:
       client:
-        url: http://localhost:8084
+        url: http://152.136.77.190:8084
 
 server:
-  port: 8769
+  port: 80
 
 eureka:
   client:
     service-url:
-      default-zone: http://localhost:8761/eureka/
+      default-zone: http://152.136.77.190:8761/eureka/
 
 zuul:
   routes:

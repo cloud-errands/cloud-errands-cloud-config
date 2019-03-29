@@ -13,7 +13,7 @@ spring:
     username: root
     password: 1172477133wq
     hikari:
-      maximum-pool-size: 20
+      maximum-pool-size: 5
       minimum-idle: 5
   jpa:
     database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
