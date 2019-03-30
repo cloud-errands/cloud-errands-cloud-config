@@ -19,4 +19,4 @@ management:
 eureka:
   client:
     service-url:
-      default-zone: http://152.136.77.190:8761/eureka/
+      default-zone: http://172.19.0.2:8761/eureka/
