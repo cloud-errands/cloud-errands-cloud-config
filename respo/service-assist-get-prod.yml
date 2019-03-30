@@ -25,7 +25,7 @@ server:
 eureka:
   client:
     service-url:
-      default-zone: http://172.19.0.2:8761/eureka/
+      defaultZone: http://172.19.0.2:8761/eureka/
 
 express:
   weight:
