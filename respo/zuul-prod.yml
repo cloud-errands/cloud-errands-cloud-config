@@ -22,5 +22,5 @@ zuul:
       path: /api/v1/assist-get/**
       serviceId: cloud-errands-service-assist-get
     api-b:
-      path: /api/v1/user/**
+      path: /api/v1/service-user/**
       serviceId: cloud-errands-service-user
