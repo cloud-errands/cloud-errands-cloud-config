@@ -18,6 +18,11 @@ spring:
   jpa:
     database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
     show-sql: true
+  rabbitmq:
+    host: 188.131.244.83
+    port: 5672
+    username: rabbit
+    password: 1172477133
 
 server:
   port: 8763
