@@ -37,3 +37,8 @@ express:
     level0: 1.00
     level1: 3.00
     level2: 8.00
+
+order:
+  overtime:
+    cancel: 1800000
+    finish: 604800000
