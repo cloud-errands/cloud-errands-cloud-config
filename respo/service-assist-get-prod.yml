@@ -17,7 +17,7 @@ spring:
       minimum-idle: 5
   jpa:
     database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
-    show-sql: true
+    show-sql: false
   rabbitmq:
     host: 188.131.244.83
     port: 5672
