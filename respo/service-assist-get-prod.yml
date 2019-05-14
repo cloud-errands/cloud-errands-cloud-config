@@ -34,7 +34,7 @@ eureka:
 
 express:
   weight:
-    level0: 1.00
+    level0: 0.01
     level1: 3.00
     level2: 8.00
 
@@ -42,3 +42,7 @@ order:
   overtime:
     cancel: 1800000
     finish: 604800000
+
+wx:
+  notify:
+    url: http://api.ypaot.com/api/v1/assist-get/wxpay/payNotify
