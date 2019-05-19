@@ -23,6 +23,9 @@ spring:
     port: 5672
     username: rabbit
     password: 1172477133
+  jackson:
+    time-zone: GMT+8
+    date-format: yyyy/MM/dd HH:mm:ss
 
 server:
   port: 8763
