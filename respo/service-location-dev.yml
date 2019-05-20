@@ -1,0 +1,31 @@
+spring:
+  application:
+    name: cloud-errands-service-location
+  zipkin:
+    base-url: http://localhost:9411
+  boot:
+    admin:
+      client:
+        url: http://localhost:8084
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://47.106.38.136:3306/db_cloud_errands_service_location?characterEncoding=UTF-8&useSSL=false
+    username: root
+    password: 1172477133wq
+    hikari:
+      maximum-pool-size: 5
+      minimum-idle: 5
+  jpa:
+    database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
+    show-sql: true
+  jackson:
+    time-zone: GMT+8
+    date-format: yyyy/MM/dd HH:mm:ss
+
+server:
+  port: 9773
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
