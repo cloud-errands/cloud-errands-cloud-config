@@ -45,7 +45,10 @@ order:
   overtime:
     cancel: 1800000
     finish: 604800000
+    end: 518400000
 
 wx:
-  notify:
+  pay-notify:
     url: http://api.ypaot.com/api/v1/assist-get/wxpay/payNotify
+  refund-notify:
+    url: http://api.ypaot.com/api/v1/assist-get/wxpay/refundNotify

@@ -24,3 +24,6 @@ zuul:
     api-b:
       path: /api/v1/service-user/**
       serviceId: cloud-errands-service-user
+    api-c:
+      path: /api/v1/location/**
+      serviceId: cloud-errands-service-location
