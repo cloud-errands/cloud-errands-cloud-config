@@ -35,12 +35,6 @@ eureka:
     service-url:
       defaultZone: http://152.136.77.190:8761/eureka/
 
-express:
-  weight:
-    level0: 0.01
-    level1: 3.00
-    level2: 8.00
-
 order:
   overtime:
     cancel: 1800000
